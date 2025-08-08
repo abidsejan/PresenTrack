@@ -38,3 +38,7 @@
    ```bash
    git clone https://github.com/abidsejan/PresenTrack.git
    cd PresenTrack
+## UI Screenshots
+
+### 🔐 All Panel
+![All Panel](https://github.com/user-attachments/assets/1938108f-f5fa-4c84-addf-af28d364fc7d)
