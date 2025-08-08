@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.attendance.Main",
+            "projectName": "Student Attendance System_d3bc7ae4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Student Attendance System",
+            "request": "launch",
+            "mainClass": "com.attendance.Main",
+            "projectName": "student-attendance-system",
+            "vmArgs": "-Dfile.encoding=UTF-8",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/*",
+                "${workspaceFolder}/src/main/resources"
+            ]
+        }
+    ]
+}

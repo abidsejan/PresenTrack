@@ -1,0 +1,25 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.test.config": [
+        {
+            "name": "Student Attendance System",
+            "workingDirectory": "${workspaceFolder}",
+            "vmargs": [
+                "-Dfile.encoding=UTF-8",
+                "-Djava.library.path=${workspaceFolder}/lib"
+            ],
+            "classpath": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/*",
+                "${workspaceFolder}/src/main/resources"
+            ]
+        }
+    ]
+}
